@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(231, 231, 215);
+}
+
+header{
+    padding: 25px;
+    display: flex;
+    justify-content: space-around;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+a:hover{
+    color: olive;
+}
+
+.Perfil{
+    position: absolute;
+    z-index: -1;
+    width: 42%;
+    left: 30%;
+    bottom: 0;
+}
+
