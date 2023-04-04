@@ -5,12 +5,21 @@
 
 body{
     background-color: rgb(231, 231, 215);
+    height: 100vh;
 }
 
+.contenedor{
+    height: 100vh;
+ }
+
 header{
-    padding: 25px;
+    padding: 25px 0px;
     display: flex;
     justify-content: space-around;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    
 }
 
 a{
@@ -26,8 +35,133 @@ a:hover{
 .Perfil{
     position: absolute;
     z-index: -1;
-    width: 42%;
+    width: 41%;
     left: 30%;
-    bottom: 0;
+    bottom: 0%;
 }
+
+.primerT{
+    background-color: rgb(190, 185, 185);
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    position: absolute;
+    z-index: -2;
+    font-size: 25px;
+    padding-left: 20px;
+    padding: 35px;
+    width: 19%;
+    left: 30%;
+    top: 20%;
+}
+
+.primerT i{
+    padding-right: 11px;
+    font-size: 25px;
+}
+
+.segundoT{
+    background-color: rgb(104, 100, 100);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: -2;
+    font-size: 25px;
+    padding: 23px 0px;
+    width: 50%;
+    top: 44%;
+}
+
+.tercerT{
+    background-color: rgb(190, 185, 185);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: -2;
+    font-size: 30px;
+    padding: 49px 0px;
+    left: 50%;
+    top: 44%;
+    width: 50%;
+}
+
+.tercerT .texto1{
+    font-size: 92px;
+    color: rgb(231, 231, 215);
+    position: absolute;
+    bottom: 37%;
+    left: 10%;
+    z-index: -1;
+}
+
+.tercerT .texto2{
+    font-size: 91px;
+    color: rgb(231, 231, 215);
+    position: absolute;
+    top: 37%;
+    left: 10%;
+    z-index: -1;
+}
+
+.cuartoT{
+    background-color: rgb(104, 100, 100);
+    color: rgb(231, 231, 215);
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    position: absolute;
+    z-index: -2;
+    font-size: 25px;
+    padding: 35px;
+    padding-right: 20px;
+    width: 21%;
+    top: 70%;
+    left: 50%;
+}
+
+.cuartoT i{
+    padding-left: 11px;
+}
+
+.Final{
+    font-size: 27px;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    top: 86%;
+}
+
+.left{
+    color: rgb(56, 52, 52);;
+}
+
+.num1{
+    font-size: 50px;
+    color: rgb(56, 52, 52);;
+}
+
+.mid{
+    color: rgb(109, 109, 100);
+}
+
+.num2{
+    font-size: 50px;
+    color: rgb(109, 109, 100);
+}
+
+.right{
+    color: rgb(56, 52, 52);;
+}
+
+.right i{
+    font-size: 50px;
+    color: rgb(56, 52, 52);;
+}
+
 
